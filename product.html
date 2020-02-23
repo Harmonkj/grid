@@ -10,14 +10,15 @@
   }
   #content{
   display: grid;
-  grid-template-columns: repeat(3,1fr)
-  grid-template-rows: 200px 300px 400px 200px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(10,minmax(200px,auto);
+  grid-gap: 10px;
   max-width: 960px;
-  margin: 0 auto;
   }
   #content div{
   background:3bbced;
   padding: 30px;
+  
   }
   #content div:nth-child(even){
   background: #777
